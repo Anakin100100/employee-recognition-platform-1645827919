@@ -17,19 +17,65 @@
 }
 
 .link-button {
-    background-color: $coral;
+    background-color: $champagne;
     color: white;
     width: 100%;
     transition: 0.4s;
     align-self: center;
     display: block;
     margin-top: 5px;
-    margin: 5px;
+    margin-bottom: 5px;
     border-radius: 2px;
     border: 2px solid black;
+    text-decoration: none;
+}
+.link-button:hover {
+    background-color: $yellow-crayola;
 }
 
-.link-button:hover {
-    background-color: red;
+.link-anchor {
+    text-decoration: none;
+    color: black
 }
-  
+
+.text-input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+  }
+
+.login-banner {
+    text-align: center;
+    font-weight: bold;
+}
+
+.checkbox {
+    margin: 5px;
+    font-size: large;
+}
+
+.submit-button {
+    background-color: $coral;
+    color: white;
+    width: 100%;
+    transition: 0.4s;
+    align-self: center;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 3px solid black;
+    text-decoration: none;   
+}
+
+.submit-button:hover {
+    background-color: $yellow-crayola;
+}
+
+
+.submit-anchor {
+    text-decoration: none;
+    color: black
+}
