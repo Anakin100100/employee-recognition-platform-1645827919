@@ -1,0 +1,35 @@
+@import "palette.scss";
+
+.container {
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: $melon;
+    border: 2px solid $yellow-crayola;
+    max-width: max-content;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-button {
+    background-color: $coral;
+    color: white;
+    width: 100%;
+    transition: 0.4s;
+    align-self: center;
+    display: block;
+    margin-top: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+
+.link-button:hover {
+    background-color: red;
+}
+  

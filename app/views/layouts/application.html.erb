@@ -11,11 +11,15 @@
   </head>
 
   <body>
-    <%= render "layouts/navbar" %>
-    <div class="body-container">  
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+    <% if !employee_signed_in? %>
       <%= yield %>
-    </div>
+    <% else %>
+      <%= render "layouts/navbar" %>
+      <div class="body-container">  
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+        <%= yield %>
+      </div>
+    <% end %>
   </body>
 </html>
